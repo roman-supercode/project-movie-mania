@@ -1,0 +1,51 @@
+/* body {
+
+    background: gray;
+}  */
+
+.Searchbar-Container {
+    background: white;
+    position: relative;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px gray;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+
+
+.Searchbar-Container input {
+    width: 100%;
+    padding: 20px 60px 20px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    display: block;
+}
+
+.Searchbar-Container button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 18px 20px;
+    z-index: 2;
+}
+
+.Searchbar-Container:has(> input:focus) {
+    box-shadow: 3px 3px 10px gray;
+}
+
+.Searchbar-Container input:focus+button .Searchbar-Img {
+    color: red;
+}
+
+.Searchbar-Img {
+    height: 30px;
+    margin-top: -5px;
+}

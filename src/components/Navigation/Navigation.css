@@ -1,0 +1,24 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    align-self: flex-end;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 1px 1px 6px gray;
+    background-color: white;
+}
+
+.navLinkToHome {
+    margin-top: 7%;
+}
+
+.navBookmark {
+    padding-top: 7px;
+}
+
+.navLogin {
+    padding-top: 7px;
+}

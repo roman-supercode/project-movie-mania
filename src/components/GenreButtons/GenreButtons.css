@@ -1,0 +1,46 @@
+.GenreButtonsWrapperSection {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    overflow-x: scroll;
+    place-self: center;
+    margin: 5px;
+}
+
+.GenreButtonsWrapperSection button {
+    padding: 15px 25px;
+    margin: 10px;
+    background-color: #FBF8FF;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    white-space: nowrap;
+}
+
+.GenreButtonsWrapperSection button:hover {
+    background-color: #fd8f8f;
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 1px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fc2121
+}

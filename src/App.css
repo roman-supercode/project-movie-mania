@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Poppins-Reg;
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('./fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Papyrus;
+    src: url('./fonts/Papyrus.ttf');
+}
+
+* {
+    font-family: Poppins-Reg;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
