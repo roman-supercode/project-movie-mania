@@ -1,8 +1,8 @@
-# Frontend Project - Movie Mania🍿
+# Frontend Project - Movie Mania🍿 (Mobile)
 
 Made with Love❤️
 
-This is the Frontend project from Roman, Steffi, Akansel and Marius.
+This is the Frontend project from Akansel, Marius, Steffi and Roman.
 
 Following you find our Folder Structure:
 
@@ -11,13 +11,14 @@ Following you find our Folder Structure:
 └── Frontend Project/
     └── src/
         ├── Pages/
+        │   ├── Datenschutz
         │   ├── Detail
         │   ├── Favorites
         │   ├── Home
+        │   ├── LoginPage
         │   ├── SearchGenre
         │   ├── SplashScreen
-        │   ├── StartPage
-        │   └── LoginPage
+        │   └── StartPage
         ├── Components/
         │   ├── GenreButtons
         │   ├── GenreCard
@@ -25,12 +26,13 @@ Following you find our Folder Structure:
         │   ├── SearchBar
         │   └── TrendingCard
         ├── context
-        ├── fonts
         └── assets/
-            └── icons
+            ├── icons
+            ├── img
+            └── fonts
 ````            
             
-This is a Simple Movie and Series searching APP.
+This is a Simple Movie searching APP.
 
 Highlights:
   - Search any movie from TheMovieDB
@@ -42,6 +44,6 @@ Highlights:
   - Login with Google
 
 
-Watch and try it on: 👇👇👇
+Watch and try it out: 👇👇👇
 
 https://super-movie-mania.netlify.app/
